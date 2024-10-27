@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            height: 100vh;
-            background-color: black;
+             height: 100vh;  /* altura da viewport do meu body (viewport height) */
+           
+           
+           /*  background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: repeat-y;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:fixed;  */
+
+             /*  shorthand - background
+            color > image > position > repeat > size > attachment */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
 
+        
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,7 +41,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit minus sapiente corporis, aliquid aperiam est maiores eligendi veritatis optio nostrum a necessitatibus voluptate provident et ipsa eos. Ut, eius?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellat explicabo facilis velit distinctio! Reiciendis quae adipisci porro, animi aspernatur atque veritatis obcaecati nemo dolore inventore perferendis molestiae laborum ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, accusamus a corporis earum minus nesciunt temporibus officia aliquid quod ipsam provident, animi enim aspernatur perspiciatis inventore dolores saepe veritatis consectetur!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit minus sapiente corporis, aliquid aperiam est maiores eligendi veritatis optio nostrum a necessitatibus voluptate provident et ipsa eos. Ut, eius?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellat explicabo facilis velit distinctio! Reiciendis quae adipisci porro, animi aspernatur atque veritatis obcaecati nemo dolore inventore perferendis molestiae laborum ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, accusamus a corporis earum minus nesciunt temporibus officia aliquid quod ipsam provident, animi enim aspernatur perspiciatis inventore dolores saepe veritatis consectetur!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit minus sapiente corporis, aliquid aperiam est maiores eligendi veritatis optio nostrum a necessitatibus voluptate provident et ipsa eos. Ut, eius?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellat explicabo facilis velit distinctio! Reiciendis quae adipisci porro, animi aspernatur atque veritatis obcaecati nemo dolore inventore perferendis molestiae laborum ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, accusamus a corporis earum minus nesciunt temporibus officia aliquid quod ipsam provident, animi enim aspernatur perspiciatis inventore dolores saepe veritatis consectetur!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit minus sapiente corporis, aliquid aperiam est maiores eligendi veritatis optio nostrum a necessitatibus voluptate provident et ipsa eos. Ut, eius?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repellat explicabo facilis velit distinctio! Reiciendis quae adipisci porro, animi aspernatur atque veritatis obcaecati nemo dolore inventore perferendis molestiae laborum ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, accusamus a corporis earum minus nesciunt temporibus officia aliquid quod ipsam provident, animi enim aspernatur perspiciatis inventore dolores saepe veritatis consectetur!</p>
+      
     </main>
 </body>
 </html>
